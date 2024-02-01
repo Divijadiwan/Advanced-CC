@@ -1,0 +1,19 @@
+h1{
+text-align: center;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 50px;
+color: rgb(64, 28, 28);
+}
+img{
+    max-height: 500px; 
+}
+body
+{
+    margin-left: 100px;
+    background-color: rosybrown;
+    color: rgb(64, 28, 28);
+}
+h2{
+    font-family: 'Single Day', cursive;
+    font-size: 40px;
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Website"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "inclass"
+	}
+}
