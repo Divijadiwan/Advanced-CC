@@ -4,19 +4,14 @@ body{
 }
 .header{
   font-size: 25px;
-  margin-top: -40px;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+ 
 }
-
 .button {
     display: inline-block;
     padding: 15px 25px;
     font-size: 20px;
+    font-family: 'Playfair Display', serif;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -37,15 +32,17 @@ body{
     transform: translateY(4px);
   }
 
-.confused{
+.art{
     width: 50%;
     height: 100%;
     display: block;
     align-items: center;
 }
-.conftext
+.poem
 {
   text-align: center;
+  font-family: 'Single Day', cursive;
   margin-left: 20px;
   font-size: 20px;
 }
+
