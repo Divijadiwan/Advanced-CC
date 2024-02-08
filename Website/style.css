@@ -7,6 +7,7 @@ body{
   text-align: center;
  
 }
+
 .button {
     display: inline-block;
     padding: 15px 25px;
@@ -20,7 +21,7 @@ body{
     background-color: hsl(13, 45%, 44%);
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 2px #999;
   }
   
     .button:hover {background-color: #ca816d}
@@ -28,7 +29,7 @@ body{
   
   .button:active {
     background-color: #ca816d;
-    box-shadow: 0 5px #666;
+    box-shadow: 0 2px #666;
     transform: translateY(4px);
   }
 
@@ -43,6 +44,26 @@ body{
   text-align: center;
   font-family: 'Single Day', cursive;
   margin-left: 20px;
-  font-size: 20px;
+  font-size: 30px;
 }
-
+.art:active
+{
+  box-shadow: 0 5px #666;
+  transform: translateY(6px);
+}
+a:active{
+color: #000;
+text-decoration: none;
+}
+a:visited{
+  color: #000;
+  text-decoration: none;
+}
+a
+{
+  text-decoration: none;
+}
+.confuse
+{
+  background-image: url(/assets/confused5.png);
+}
