@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    /* border: 1vh solid black; */
+    height: 100vh;
+
+    justify-content: space-around;
+    align-content: flex-start;
+    /* align-items: center;  */
+    column-gap: 20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+.box{
+    width: 50vh;
+    /* height: 50vh; */
+    font-size: 5vh;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 0px; /* to round box */
+   /* flex: 1 0 21%; this will force the boxes to be 2 rows */
+
+}
+
+#box1{
+    background-color: rgb(255, 255, 255);
+    background-image: url(assets/lemon.gif);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+}
+#box1:hover
+{
+   zoom: 1.5;
+}
+
+#box2{
+    background-color: rgb(165, 165, 226);
+    background-image: url(assets/tomato.gif);
+    background-size: 25%;
+    
+}
+
+#box3{
+    background-color: rgb(185, 233, 185);
+    background-image: url(assets/lemon.gif);
+    background-size: 25%;
+}
+#box4{
+    background-color: rgb(231, 182, 231);
+    background-image: url(assets/tomato.gif);
+    background-size: 25%;
+}
+#box5{
+    background-color: rgb(215, 183, 146);
+    background-image: url(assets/lemon.gif);
+    background-size: 25%;
+}
+#box6{
+    background-color: rgb(173, 218, 235);
+    background-image: url(assets/tomato.gif);
+    background-size: 25%;
+}
+#box7{
+    background-color: rgb(237, 175, 238);
+    background-image: url(assets/lemon.gif);
+    background-size: 25%;
+}
+#box8{
+    background-color: rgb(236, 223, 165);
+    background-image: url(assets/tomato.gif);
+    background-size: 25%;
+}
