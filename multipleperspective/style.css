@@ -1,10 +1,49 @@
-
-ul
+.heading
+{
+    text-align: center;
+}
+#intro
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav
+{
+    position: fixed;
+    z-index: 2;
+}
+li
 {
     list-style: none;
     list-style-type: none;
     display: flex;
     flex-direction: column;
     padding: 5px;
+}
 
+img
+{
+    width: 400px;
+    height: 400px;
+}
+#main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    column-gap: 5px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+
+}
+#digi
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    column-gap: 5px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    text-align: right;
 }
