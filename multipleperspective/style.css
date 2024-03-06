@@ -102,7 +102,7 @@ img
   padding-right: 15%;
   font-size: 25px;
   opacity: 0;
-  animation: fadeIn 5s forwards;
+  animation: fadeIn 25s forwards;
 }
 .embroidery
 {
@@ -153,6 +153,11 @@ img
     color: rgba(0, 0, 0, 1); /* Set reflection color and opacity */
     transform: scaleY(-1); /* Flip reflection vertically */
   }
+#batikimg
+{
+    width: 100px;
+    height: 100px;
+}
 #line1
 {
     animation-delay: 5s;
