@@ -12,6 +12,12 @@
     text-align: center;
     font-size: 50px;
 }
+#blockhead
+{
+    font-weight: bold; 
+    color: rgb(234, 221, 202);
+    text-shadow: -2px 2px 2px rgb(123, 63, 0,0.9);
+}
 #embhead
 {
     font-family: stitch;
@@ -83,13 +89,30 @@ img
     padding-right: 15%;
     font-size: 35px;
 }
+.block
+{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 35px;
+    font-weight: bold; 
+    color: rgb(234, 221, 202);
+    text-shadow: -2px 2px 2px rgb(123, 63, 0,0.9);
+   
+}
 .batik
 {
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
     font-size: 35px;
-
+}
+.transfer
+{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 30px;
 }
 #line1
 {
