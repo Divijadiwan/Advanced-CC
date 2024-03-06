@@ -50,7 +50,9 @@ font-size: 20px;
 }
 #intro
 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "adobe-handwriting-ernie";
+font-weight: 400;
+font-style: normal;
 }
 .nav
 {
