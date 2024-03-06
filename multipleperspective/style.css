@@ -23,9 +23,6 @@ color: #000;
 text-decoration: none;
 font-size: 20px;
 }
-body{
-background-image: url("bgimage.jpg");
-}
 
 .heading
 {
@@ -83,6 +80,20 @@ img
     column-gap: 5px;
     row-gap: 20px;
     flex-wrap: wrap;
+}
+.images
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    column-gap: 5px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+#digital
+{
+    animation: fadeIn 25s forwards;
 }
 .digi
 {
