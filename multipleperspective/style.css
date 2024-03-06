@@ -7,6 +7,26 @@
     font-family: screenprintfont;
     src: url(fonts/screen.ttf);
 }
+a:active{
+color: #000;
+text-decoration: none;
+font-size: 20px;
+}
+a:visited{
+color: #000;
+text-decoration: none;
+font-size: 20px;
+}
+a
+{
+color: #000;
+text-decoration: none;
+font-size: 20px;
+}
+body{
+background-image: url("bgimage.jpg");
+}
+
 .heading
 {
     text-align: center;
@@ -114,6 +134,14 @@ img
     padding-right: 15%;
     font-size: 30px;
 }
+.transfer::after {
+    content: attr(data-content); /* Use content attribute to reflect text */
+    position: absolute;
+    top: 100%; /* Position reflection below original text */
+    left: 0;
+    color: rgba(0, 0, 0, 1); /* Set reflection color and opacity */
+    transform: scaleY(-1); /* Flip reflection vertically */
+  }
 #line1
 {
     animation-delay: 5s;
