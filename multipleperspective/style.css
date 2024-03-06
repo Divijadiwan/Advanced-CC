@@ -1,6 +1,15 @@
+@font-face {
+    font-family: stitch;
+    src: url(fonts/MixStitch.ttf);
+}
 .heading
 {
     text-align: center;
+    font-size: 50px;
+}
+#embhead
+{
+    font-family: stitch;
 }
 #intro
 {
@@ -36,14 +45,61 @@ img
     flex-wrap: wrap;
 
 }
-#digi
+.digi
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: flex-start;
-    column-gap: 5px;
-    row-gap: 20px;
-    flex-wrap: wrap;
-    text-align: right;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 25px;
+  opacity: 0;
+  animation: fadeIn 5s forwards;
 }
+.embroidery
+{
+  font-family: stitch;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 35px;
+}
+#line1
+{
+    animation-delay: 5s;
+}
+#line2
+{
+    animation-delay: 15s;
+}
+#line3
+{
+    animation-delay: 25s;
+}
+#line4
+{
+    animation-delay: 35s;
+}
+#line5
+{
+    animation-delay: 45s;
+}
+#line6
+{
+    animation-delay: 55s;
+}
+#line7
+{
+    animation-delay: 65s;
+}
+#line8
+{
+    animation-delay: 7;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0; /* Start with text hidden */
+    }
+    100% {
+      opacity: 1; /* Fully reveal the text */
+    }
+  }
+  
