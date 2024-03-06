@@ -1,6 +1,11 @@
 @font-face {
     font-family: stitch;
     src: url(fonts/MixStitch.ttf);
+    
+}
+@font-face {
+    font-family: screenprintfont;
+    src: url(fonts/screen.ttf);
 }
 .heading
 {
@@ -10,6 +15,15 @@
 #embhead
 {
     font-family: stitch;
+}
+#screenhead
+{
+    font-family: screenprintfont;
+}
+#digihead
+{
+    opacity: 0;
+    animation: fadeIn 2s forwards;
 }
 #intro
 {
@@ -43,7 +57,6 @@ img
     column-gap: 5px;
     row-gap: 20px;
     flex-wrap: wrap;
-
 }
 .digi
 {
@@ -62,37 +75,53 @@ img
   padding-right: 15%;
   font-size: 35px;
 }
+.screenprint
+{
+    font-family: screenprintfont;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 35px;
+}
+.batik
+{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 35px;
+
+}
 #line1
 {
     animation-delay: 5s;
 }
 #line2
 {
-    animation-delay: 15s;
+    animation-delay: 25s;
 }
 #line3
 {
-    animation-delay: 25s;
+    animation-delay: 45s;
 }
 #line4
 {
-    animation-delay: 35s;
+    animation-delay: 65s;
 }
 #line5
 {
-    animation-delay: 45s;
+    animation-delay: 85s;
 }
 #line6
 {
-    animation-delay: 55s;
+    animation-delay: 105s;
 }
 #line7
 {
-    animation-delay: 65s;
+    animation-delay: 115s;
 }
 #line8
 {
-    animation-delay: 7;
+    animation-delay: 135s;
 }
 @keyframes fadeIn {
     0% {
