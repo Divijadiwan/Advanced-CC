@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/ayd6moe.css">
+	<link rel="stylesheet" href="/question/one.css">
+
+    <title>Community Tool</title>
+  </head> 
+  <body> 
+  <img class="bg" src="../images/q3bg.jpg">
+  <div class="navbar">
+    <a href="/index.html" class="navbutton">Home</a>
+    <a href="/about/index.html" class="navbutton">About</a>
+  </div>
+  <div class="ques">
+    Manakamna Devi temple situated in Nepal gets a crown of thousands every day. Why do you think it is so famous?
+  </div>
+  <button class="options" id="first"  onclick="wrong()">The temple can be reached by a unique cable car ride </button>
+  <button class="options" id="second" onclick="wrong()">The temple offers stunning panoramic views of the Himalayan range.</button>
+  <button class="options" id="third"onclick="wrong()">The Manakamana Temple is over 350 years old.</button>
+  <button class="options" id="fourth"onclick="right()">Goddess Manakamna is known to fulfill people's wishes who worship her with a pure heart</button>
+  <div class="popup" id="right">
+    <div class = "content">
+    Your Answer is Correct.
+    <br>
+    <br>
+    Fun Fact: A lot of devotees come to this temple to make a vow to Goddess Bhagwati so that a wish is fulfilled. Some people vow to revisit the temple, some make of vow of a different offerings that they would give to the deity when their wish is fulfilled.
+    <br>
+    <br>
+    <br>
+    <button class="next" onclick="changethree()">Next question</button>
+  </div>
+  </div>
+<div class="popup" id="wrong">
+  <div class = "content">
+    Your Answer is Wrong.
+    <br>
+    <br>
+    Correct Answer: Goddess Manakamna is known to fulfill people's wishes who worship her with a pure heart
+    <br>
+    <br>
+    Fun Fact: A lot of devotees come to this temple to make a vow to Goddess Bhagwati so that a wish is fulfilled. Some people vow to revisit the temple, some make of vow of a different offerings that they would give to the deity when their wish is fulfilled.
+    <br>
+    <br>
+    <button class="next" onclick="changethree()">Next question</button>
+  </div>
+</div>
+  <script src="/question/main.js"></script>
+  </body>
+</html>

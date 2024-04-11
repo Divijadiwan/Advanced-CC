@@ -1,0 +1,183 @@
+.bg{
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-start; 
+    position: fixed; /* Position the navbar */
+    top: 25px; /* Adjust top position if necessary */
+    left: 5px;
+}
+.navbutton {
+   background-color: transparent;
+    color:#724141;
+    text-decoration: none;
+    font-family: "serenity", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: 2px solid #724141; 
+    margin-left: 10px;
+}
+.title {
+    color: #724141;
+    font-family: "serenity", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 280px;
+    position: relative;
+}
+
+  .navbutton:hover {
+    font-style: italic;
+}
+.ques{
+    color:#724141;
+    font-family: "serenity", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    padding: 7px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 20px;
+    position: fixed;
+}
+.options {
+    display: flex;
+    justify-content: flex-start; 
+    position: fixed; /* Position the navbar */
+    top: 50px; /* Adjust top position if necessary */
+    left: 5px;
+}
+#first:hover{
+    background-color: #724141;
+    font-style: italic;
+    color: white;
+}
+#second:hover{
+    background-color: #724141;
+    font-style: italic;
+    color: white;
+}
+#third:hover{
+    background-color: #724141;
+    font-style: italic;
+    color: white;
+}
+#fourth:hover{
+    background-color: #724141;
+    font-style: italic;
+    color: white;
+}
+#first {
+   background-color: transparent;
+    color:#724141;
+    text-decoration: none;
+    font-family: "serenity", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: 2px solid #724141; 
+    margin-left: 40px;
+    margin-top: 250px;
+}
+#second {
+    background-color: transparent;
+     color:#724141;
+     text-decoration: none;
+     font-family: "serenity", sans-serif;
+     font-size: 25px;
+     font-style: normal;
+     padding: 7px 20px;
+     border-radius: 20px;
+     border: 2px solid #724141; 
+     margin-left: 720px;
+     margin-top: 250px;
+ }
+ 
+ #third {
+    background-color: transparent;
+     color:#724141;
+     text-decoration: none;
+     font-family: "serenity", sans-serif;
+     font-size: 25px;
+     font-style: normal;
+     padding: 7px 20px;
+     border-radius: 20px;
+     border: 2px solid #724141; 
+     margin-left: 40px;
+     margin-top: 350px;
+ }
+ #fourth {
+    background-color: transparent;
+     color:#724141;
+     text-decoration: none;
+     font-family: "serenity", sans-serif;
+     font-size: 25px;
+     font-style: normal;
+     padding: 7px 20px;
+     border-radius: 20px;
+     border: 2px solid #724141; 
+     margin-left: 720px;
+     margin-top: 350px;
+ }
+ .popup
+ {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-top: 250px;
+    margin-left: 450px;
+    z-index: 9999; 
+    
+ }
+ .content{
+    margin-left: 10px;
+    color:#724141;
+     text-decoration: none;
+     font-family: "serenity", sans-serif;
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 600;
+ }
+.next
+{
+    background-color: transparent;
+    color:#724141;
+    text-decoration: none;
+    font-family: "serenity", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    padding: 7px 20px;
+    border-radius: 20px;
+    border: 2px solid #724141; 
+    margin-left: 430px;
+}
+.next:hover
+{
+    background-color: #724141;
+    color: white;
+    font-style: italic;
+}

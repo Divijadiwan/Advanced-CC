@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/ayd6moe.css">
+	<link rel="stylesheet" href="/question/one.css">
+
+    <title>Community Tool</title>
+  </head> 
+  <body> 
+  <img class="bg" src="/images/q1bg.png">
+  <div class="navbar">
+    <a href="/index.html" class="navbutton">Home</a>
+    <a href="/about/index.html" class="navbutton">About</a>
+  </div>
+  <div class="ques">
+    While 1st January is New Year's Day according to the Gregorian Calendar, in the Hindu calendar the beginning of new year usually falls in the month of April. Which of these is one of the names by which it is celebrated?
+</div>
+  <button class="options" id="first"  onclick="wrong()">Poornima</button>
+  <button class="options" id="second" onclick="wrong()">Chhath</button>
+  <button class="options" id="third"onclick="wrong()">Vasant Panchami</button>
+  <button class="options" id="fourth"onclick="right()">Yugadi</button>
+  <div class="popup" id="right">
+    <div class = "content">
+    Your Answer is Correct.
+    <br>
+    <br>
+    Fun Fact: When it comes to celebrating the new year in India, the most common things include worshiping God, wearing new clothes, preparing traditional food, meeting relatives and friends, etc. The day  signifies the herald of spring and it’s believed that Brahma created the universe and the sense of time on this day
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="next" onclick="changeeight()">Back to Home</button>
+  </div>
+  </div>
+  <div class="popup" id="wrong">
+    <div class = "content">
+    Your Answer is Wrong.
+    <br>
+    <br>
+    Correct Answer: Yugadi
+    <br>
+    <br>
+    Fun Fact: When it comes to celebrating the new year in India, the most common things include worshiping God, wearing new clothes, preparing traditional food, meeting relatives and friends, etc. The day  signifies the herald of spring and it’s believed that Brahma created the universe and the sense of time on this day
+    <br>
+    <br>
+    <button class="next" onclick="changeeight()">Back to Home</button>
+  </div>
+</div>
+  <script src="/question/main.js"></script>
+  </body>
+</html>

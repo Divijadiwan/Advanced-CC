@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/ayd6moe.css">
+	<link rel="stylesheet" href="/question/one.css">
+
+    <title>Community Tool</title>
+  </head> 
+  <body> 
+  <img class="bg" src="/images/q1bg.png">
+  <div class="navbar">
+    <a href="/index.html" class="navbutton">Home</a>
+    <a href="/about/index.html" class="navbutton">About</a>
+  </div>
+  <div class="ques">
+Goddess Saraswati, wife of Brahma is considered the Goddess of?
+  </div>
+  <button class="options" id="first"  onclick="wrong()">removing obstacles</button>
+  <button class="options" id="second" onclick="right()">knowledge, art, and music</button>
+  <button class="options" id="third"onclick="wrong()">wealth and prosperity</button>
+  <button class="options" id="fourth"onclick="wrong()">weather and war</button>
+  <div class="popup" id="right">
+    <div class = "content">
+    Your Answer is Correct.
+    <br>
+    <br>
+    Fun Fact: Goddess Saraswati is often depicted with four arms which mirror her husband, Brahma's, four heads. In her four hands there's usually a book, garland or rosary, a water pot, and a musical instrument.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="next" onclick="changeseven()">Next question</button>
+  </div>
+  </div>
+  <div class="popup" id="wrong">
+    <div class = "content">
+    Your Answer is Wrong.
+    <br>
+    <br>
+    Correct Answer: knowledge, art, and music
+    <br>
+    <br>
+    Fun Fact: Goddess Saraswati is often depicted with four arms which mirror her husband, Brahma's, four heads. In her four hands there's usually a book, garland or rosary, a water pot, and a musical instrument.
+    <br>
+    <br>
+    <button class="next" onclick="changeseven()">Next question</button>
+  </div>
+</div>
+  <script src="/question/main.js"></script>
+  </body>
+</html>

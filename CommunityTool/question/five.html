@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/ayd6moe.css">
+	<link rel="stylesheet" href="/question/one.css">
+
+    <title>Community Tool</title>
+  </head> 
+  <body> 
+  <img class="bg" src="/images/q1bg.png">
+  <div class="navbar">
+    <a href="/index.html" class="navbutton">Home</a>
+    <a href="/about/index.html" class="navbutton">About</a>
+  </div>
+  <div class="ques">
+    Which of the following deities is the considered to be cosmic dancer through the universe’s creation and destruction?
+</div>
+  <button class="options" id="first"  onclick="wrong()">Lord Ganesha</button>
+  <button class="options" id="second" onclick="wrong()">Goddess Parvati</button>
+  <button class="options" id="third"onclick="right()">Lord Shiva</button>
+  <button class="options" id="fourth"onclick="wrong()">Goddess Sarasvati</button>
+  <div class="popup" id="right">
+    <div class = "content">
+    Your Answer is Correct.
+    <br>
+    <br>
+    Fun Fact: Natraja is a depiction of Lord Shiva as a cosmic dancer.  His dance is called the tandava. There is also a very famous sculpture depicting him as the lord of dance and dramatic artsn and is also a symbolism of the Hindu Culture.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="next" onclick="changefive()">Next question</button>
+  </div>
+  </div>
+  <div class="popup" id="wrong">
+    <div class = "content">
+    Your Answer is Wrong.
+    <br>
+    <br>
+    Correct Answer: Lord Shiva
+    <br>
+    <br>
+    Fun Fact: Natraja is a depiction of Lord Shiva as a cosmic dancer.  His dance is called the tandava. There is also a very famous sculpture depicting him as the lord of dance and dramatic artsn and is also a symbolism of the Hindu Culture.
+    <br>
+    <br>
+    <button class="next" onclick="changefive()">Next question</button>
+  </div>
+</div>
+  <script src="/question/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/ayd6moe.css">
+	<link rel="stylesheet" href="/question/one.css">
+
+    <title>Community Tool</title>
+  </head> 
+  <body> 
+  <img class="bg" src="/images/q1bg.png">
+  <div class="navbar">
+    <a href="/index.html" class="navbutton">Home</a>
+    <a href="/about/index.html" class="navbutton">About</a>
+  </div>
+  <div class="ques">
+   Which one of the Hindu temples is the largest monolithic piece of art in India as well as the world?
+  </div>
+  <button class="options" id="first"  onclick="wrong()">Tirupati Temple</button>
+  <button class="options" id="second" onclick="right()">Kailash Temple</button>
+  <button class="options" id="third"onclick="wrong()">Meenakshi Sundareshwar Temple</button>
+  <button class="options" id="fourth"onclick="wrong()">Siddhivinayak Temple</button>
+  <div class="popup" id="right">
+    <div class = "content">
+    Your Answer is Correct.
+    <br>
+    <br>
+    Fun Fact: The Great Kailasa is a freestanding, multi-storied temple complex carved from top to bottom dedicated to Lord Shiva. It is carved out of a single volcanic basaltic rock of the Charanandri hills. Even the sculptures at this enigmatic temple are carved from the same piece of rock as the rest of the temple. 
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="next" onclick="changesix()">Next question</button>
+  </div>
+  </div>
+  <div class="popup" id="wrong">
+    <div class = "content">
+    Your Answer is Wrong.
+    <br>
+    <br>
+    Correct Answer: Kailash Temple
+    <br>
+    <br>
+    Fun Fact: The Great Kailasa is a freestanding, multi-storied temple complex carved from top to bottom dedicated to Lord Shiva. It is carved out of a single volcanic basaltic rock of the Charanandri hills. Even the sculptures at this enigmatic temple are carved from the same piece of rock as the rest of the temple. 
+    <br>
+    <br>
+    <button class="next" onclick="changesix()">Next question</button>
+  </div>
+</div>
+  <script src="/question/main.js"></script>
+  </body>
+</html>

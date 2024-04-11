@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/ayd6moe.css">
+	<link rel="stylesheet" href="/question/one.css">
+
+    <title>Community Tool</title>
+  </head> 
+  <body> 
+  <img class="bg" src="../images/q2bg.jpg">
+  <div class="navbar">
+    <a href="/index.html" class="navbutton">Home</a>
+    <a href="/about/index.html" class="navbutton">About</a>
+  </div>
+  <div class="ques">
+    One of the famous temples in North India is Amarnath, which is yet another temple dedicated to Lord Shiva. What is special about this temple?
+  </div>
+  <button class="options" id="first"  onclick="wrong()">It's the only Shiv temple in North India </button>
+  <button class="options" id="second" onclick="right()">The idol is an ice stalagmite </button>
+  <button class="options" id="third"onclick="wrong()">The idol is made of pure gold</button>
+  <button class="options" id="fourth"onclick="wrong()">It is only temple where devotees are not allowed inside</button>
+  <div class="popup" id="right">
+    <div class = "content">
+    Your Answer is Correct.
+    <br>
+    <br>
+    Fun Fact: The Amarnath temple is located in the state of Jammu and Kashmir in India. The temple is located in a cave in a mountain of ice. During the months of May to August, the idol of Lord Shiva (Shivling) is formed from ice. Pilgrims travel from all over the world to visit this temple. The temple is located at an altitude of 3,888m.
+    <br>
+    <br>
+    <br>
+    <button class="next" onclick="changetwo()">Next question</button>
+  </div>
+  </div>
+<div class="popup" id="wrong">
+  <div class = "content">
+    Your Answer is Wrong.
+    <br>
+    <br>
+    Correct Answer: The idol is an ice stalagmite
+    <br>
+    <br>
+    Fun Fact: The Amarnath temple is located in the state of Jammu and Kashmir in India. The temple is located in a cave in a mountain of ice. During the months of May to August, the idol of Lord Shiva (Shivling) is formed from ice. Pilgrims travel from all over the world to visit this temple. The temple is located at an altitude of 3,888m.
+    <br>
+    <br>
+    <button class="next" onclick="changetwo()">Next question</button>
+  </div>
+</div>
+  <script src="/question/main.js"></script>
+  </body>
+</html>

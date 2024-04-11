@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/ayd6moe.css">
+	<link rel="stylesheet" href="/question/one.css">
+
+    <title>Community Tool</title>
+  </head> 
+  <body> 
+  <img class="bg" src="/images/q1bg.png">
+  <div class="navbar">
+    <a href="/index.html" class="navbutton">Home</a>
+    <a href="/about/index.html" class="navbutton">About</a>
+  </div>
+  <div class="ques">
+    Janmashtami is a popular festival celebrated to mark the birth of a Hindu God. Which God is this?
+</div>
+  <button class="options" id="first"  onclick="right()">Lord Krishna</button>
+  <button class="options" id="second" onclick="wrong()">Lord Rama</button>
+  <button class="options" id="third"onclick="wrong()">Lord Ganesha</button>
+  <button class="options" id="fourth"onclick="wrong()">Lord Shiva</button>
+  <div class="popup" id="right">
+    <div class = "content">
+    Your Answer is Correct.
+    <br>
+    <br>
+    Fun Fact: The idol of Krishna is kept inside the cucumber throughout the day and at midnight the Laddu Gopal is taken out by cutting the cucumber with a silver coin. This is symbolic of the biological process of how a child comes out of the mother's womb, after that the umbilical cord is cut. Similarly, the stalk is also cut like the umbilical cord. After this, Lord Krishna is welcomed by blowing conch shells and ringing bells. It is believed that if this cucumber is fed to a pregnant woman, then she gets a child-like Lord Krishna.
+    <br>
+    <button class="next" onclick="changefour()">Next question</button>
+  </div>
+  </div>
+  <div class="popup" id="wrong">
+    <div class = "content">
+    Your Answer is Wrong.
+    <br>
+    Correct Answer: Lord Krishna
+    <br>
+    Fun Fact: The idol of Krishna is kept inside the cucumber throughout the day and at midnight the Laddu Gopal is taken out by cutting the cucumber with a silver coin. This is symbolic of the biological process of how a child comes out of the mother's womb, after that the umbilical cord is cut. Similarly, the stalk is also cut like the umbilical cord. After this, Lord Krishna is welcomed by blowing conch shells and ringing bells. It is believed that if this cucumber is fed to a pregnant woman, then she gets a child-like Lord Krishna.
+    <br>
+    <button class="next" onclick="changefour()">Next question</button>
+  </div>
+</div>
+  <script src="/question/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/ayd6moe.css">
+	<link rel="stylesheet" href="/question/one.css">
+
+    <title>Community Tool</title>
+  </head> 
+  <body> 
+  <img class="bg" src="/images/q1bg.png">
+  <div class="navbar">
+    <a href="/index.html" class="navbutton">Home</a>
+    <a href="/about/index.html" class="navbutton">About</a>
+    <a href="index.html"class="navbutton">Facts</a>
+  </div>
+  <div class="ques">
+    What is the reason behind the celebration of the Festival of Lights - Diwali?
+  </div>
+  <button class="options" id="first"  onclick="right()">To celebrate the return on Lord Rama from Vanvaas </button>
+  <button class="options" id="second" onclick="wrong()">Because Lord Rama was born on that day </button>
+  <button class="options" id="third"onclick="wrong()">Just so that family can meet, light diyas, burst <br> fircrackers and eat good food </button>
+  <button class="options" id="fourth"onclick="wrong()">To mark the day of Lord Rama killing the demon Raavan </button>
+  <div class="popup" id="right">
+    <div class = "content">
+    Your Answer is Correct.
+    <br>
+    <br>
+    Fun Fact: Lord Rama had to be in Vanvaas for 14 years. This festival also proves that truth, good always wons over the evil.
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="next" onclick="change()">Next question</button>
+  </div>
+  </div>
+  <div class="popup" id="wrong">
+    <div class = "content">
+    Your Answer is Wrong.
+    <br>
+    <br>
+    Correct Answer: To celebrate the return on Lord Rama from Vanvaas
+    <br>
+    <br>
+    Fun Fact: Lord Rama had to be in Vanvaas for 14 years. This festival also proves that truth, good always wons over the evil.
+    <br>
+    <br>
+    <button class="next" onclick="change()">Next question</button>
+  </div>
+</div>
+  <script src="/question/main.js"></script>
+  </body>
+</html>

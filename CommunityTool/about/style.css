@@ -10,13 +10,14 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.4;
+    opacity: 0.3;
+    z-index:-1;
 }
 .navbar {
     display: flex;
     justify-content: flex-start; 
-    position: fixed; /* Position the navbar */
-    top: 25px; /* Adjust top position if necessary */
+    position: fixed;
+    top: 25px; 
     left: 5px;
 }
 .navbutton {
@@ -31,7 +32,6 @@
     border: 2px solid #724141; 
     margin-left: 10px;
 }
-
   .navbutton:hover {
     font-style: italic;
 }
@@ -43,24 +43,16 @@
     font-size: 150px;
     justify-content: center;
     text-align: center;
-    margin-top: 280px;
     position: relative;
 }
-  .start{
-    background-color: transparent;
+.des{
     color: #724141;
     font-family: "serenity", sans-serif;
     font-weight: 300;
-    font-size: 40px;
-    padding: 7px 20px;
-    border-radius: 20px; 
-    border: 2px solid #724141; 
+    font-style: italic;
+    font-size: 30px; 
     justify-content: center;
     text-align: center;
-    margin-left: 620px;
-    position: relative;
+    margin-left:250px;
+    margin-right:250px;
 }
-  .start:hover {
-    font-style: italic;
-}
- 
