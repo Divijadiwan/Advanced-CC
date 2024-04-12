@@ -12,17 +12,10 @@
     left: 0px;
     opacity: 0.4;
 }
-@media screen and (min-width: 576px) {
-.navbutton
-{
-  display: flex;
-  justify-content: center;
-}
   
-}
 .navbar {
     display: flex;
-    justify-content: flex-start; 
+    justify-content: center; 
     position: fixed; /* Position the navbar */
     top: 25px; /* Adjust top position if necessary */
     left: 5px;
@@ -71,4 +64,15 @@
   .start:hover {
     font-style: italic;
 }
+@media screen and (max-width: 768px)
+{
+  .title{
+    font-size: 75px ;
+  }
+  .start{
+    margin-left: 170px;
+    font-size: 30px;
+  }
+}
+
  

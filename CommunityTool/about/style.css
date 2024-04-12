@@ -10,7 +10,7 @@
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.3;
+    opacity: 0.25;
     z-index:-1;
 }
 .navbar {
@@ -48,11 +48,24 @@
 .des{
     color: #724141;
     font-family: "serenity", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: italic;
     font-size: 30px; 
     justify-content: center;
     text-align: center;
     margin-left:250px;
     margin-right:250px;
+}
+
+@media screen and (max-width: 768px)
+{
+  .title{
+    font-size: 50px;
+    margin-top: 100px;
+  }
+  .des{
+    font-size: 20px;
+    margin-left:0px;
+    margin-right: 0px;
+  }
 }
