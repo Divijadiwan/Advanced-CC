@@ -16,33 +16,33 @@ function wrong()
 };
 function change()
 {
-    window.location.href = "/question/two.html";
+    window.location.href = "../question/two.html";
 }
 function changetwo()
 {
-    window.location.href = "/question/three.html";
+    window.location.href = "../question/three.html";
 }
 function changethree()
 {
-    window.location.href = "/question/four.html";
+    window.location.href = "../question/four.html";
 }
 function changefour()
 {
-    window.location.href = "/question/five.html";
+    window.location.href = "../question/five.html";
 }
 function changefive()
 {
-    window.location.href = "/question/six.html";
+    window.location.href = "../question/six.html";
 }
 function changesix()
 {
-    window.location.href = "/question/seven.html";
+    window.location.href = "../question/seven.html";
 }
 function changeseven()
 {
-    window.location.href = "/question/eight.html";
+    window.location.href = "../question/eight.html";
 }
 function changeeight()
 {
-    window.location.href = "/question/end.html";
+    window.location.href = "../question/end.html";
 }

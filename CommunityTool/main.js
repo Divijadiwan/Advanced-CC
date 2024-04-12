@@ -1,5 +1,5 @@
 let start = document.querySelector(".start");
 function quiz()
 {
-    window.location.href = "/question/one.html";
+    window.location.href = "../CommunityTool/question/one.html";
 };
