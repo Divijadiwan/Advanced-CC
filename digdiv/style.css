@@ -1,0 +1,46 @@
+body
+{
+    background-color: #F9DDBD;
+}
+.navbutton
+{
+    display: flex;
+    flex-direction: column;
+    color:#556381;
+    text-decoration: none;
+    font-family: "larken", sans-serif;
+    font-size: 5vh;
+    font-style: normal;
+    padding: 7px 20px;
+}
+.navbutton:hover
+{
+    font-style: italic;
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #556381;
+    font-size: 15vh;
+    margin-top: 20vh;
+}
+.start
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #556381;
+    font-size: 5vh;
+}
+.start:hover
+{
+    font-style: italic;
+}

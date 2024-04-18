@@ -1,0 +1,198 @@
+body
+{
+    background-color: #F9DDBD;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #556381;
+    font-size: 4vh;
+}
+.bold
+{
+    font-family: "larken", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.category
+{
+    display: flex;
+    justify-content: center;
+}
+.category:hover
+{
+    font-style: italic;
+}
+.age
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.alone
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.anger
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.change
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.dating
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.dreams
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.failure
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.faith
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.family
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.friendship
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.happiness
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.health
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.life
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
+.success
+{
+    font-family: "larken", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: transparent;
+    color: #556381;
+    padding: 7px 20px;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    font-size: 3vh;
+}
