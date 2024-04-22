@@ -44,3 +44,12 @@ body
 {
     font-style: italic;
 }
+@media screen and (max-width: 768px)
+{
+  .title{
+    font-size: 60px ;
+  }
+  .start{
+    font-size: 30px;
+  }
+}

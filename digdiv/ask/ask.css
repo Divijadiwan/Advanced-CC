@@ -12,6 +12,20 @@ body
     color: #556381;
     font-size: 4vh;
 }
+@media screen and (max-width: 768px)
+{
+  .content{
+    font-size: 3vh ;
+  }
+  .options{
+    justify-content: center;
+  }
+  #quote
+  {
+    font-size:15px;
+    margin-top: 500px;
+  }
+}
 .text-wrapper
 {
     text-align: center;
@@ -47,6 +61,7 @@ body
     flex-direction: row;
     justify-content: space-evenly;
 }
+
 .category
 {
     display: flex;
