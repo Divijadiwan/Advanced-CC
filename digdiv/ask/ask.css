@@ -15,14 +15,14 @@ body
 @media screen and (max-width: 768px)
 {
   .content{
-    font-size: 3vh ;
+    font-size: 4vh ;
   }
   .options{
     justify-content: center;
   }
   #quote
   {
-    font-size:3vh;
+    font-size:2vh;
     margin-top: 700px;
   }
 }
