@@ -1,17 +1,80 @@
-function age()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=age';
 
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
+document.addEventListener('DOMContentLoaded', function() {
+document.getElementById("age").addEventListener("click", function() {
+  navigateToQuotePage("age");
+});
+
+document.getElementById("alone").addEventListener("click", function() {
+  navigateToQuotePage("alone");
+});
+
+document.getElementById("anger").addEventListener("click", function() {
+  navigateToQuotePage("anger");
+});
+document.getElementById("change").addEventListener("click", function() {
+  navigateToQuotePage("change");
+});
+document.getElementById("dating").addEventListener("click", function() {
+  navigateToQuotePage("dating");
+});
+document.getElementById("dreams").addEventListener("click", function() {
+  navigateToQuotePage("dreams");
+});
+document.getElementById("failure").addEventListener("click", function() {
+  navigateToQuotePage("failure");
+});
+document.getElementById("faith").addEventListener("click", function() {
+  navigateToQuotePage("faith");
+});
+document.getElementById("family").addEventListener("click", function() {
+  navigateToQuotePage("family");
+});
+document.getElementById("friendship").addEventListener("click", function() {
+  navigateToQuotePage("friendship");
+});
+document.getElementById("happiness").addEventListener("click", function() {
+  navigateToQuotePage("happiness");
+});
+document.getElementById("health").addEventListener("click", function() {
+  navigateToQuotePage("health");
+});
+document.getElementById("life").addEventListener("click", function() {
+  navigateToQuotePage("life");
+});
+document.getElementById("success").addEventListener("click", function() {
+  navigateToQuotePage("success");
+});
+document.getElementById("up").addEventListener("click", function() {
+   window.scrollTo({
+    top:0,
+    behavior: 'smooth'
+  
+  });
+});
+
+function navigateToQuotePage(category) {
+
+  // Construct the URL with the category as a query parameter
+  const url = `ask.html`;
+
+  // Scroll the page to the quote section smoothly
+  document.getElementById('forpos').scrollIntoView({
+
+      behavior: 'smooth',
+      block: 'start'
+  });
+  getQuote(category);
+}
+
+function getQuote(cate)
+{
+  const apiUrl = `https://api.api-ninjas.com/v1/quotes?category=${cate}`;
+  const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
+  fetch(apiUrl, {
    headers: {
     'X-Api-Key' : apiKey,
    },
- })
+  })
    .then(response => {
      if (!response.ok) {
        throw new Error('Network response was not ok');
@@ -21,427 +84,33 @@ function age()
   
      .then(data => {
        // Process the protected data
-       console.log(data[0]);
+       displayQuote(data[0]);
      })
-   
-   
+
    .catch(error => {
      console.error('Error:', error);
    });
 }
+let currentQuoteElement = null;
 
-function alone()
+function displayQuote(info)
 {
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=alone';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
+  const currentQuote = document.getElementById('quote');
+  const newQuote = document.createElement('div');
   
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
+  newQuote.id = 'quote';
+  newQuote.innerHTML = `
+
+  <p>${info.quote}</p>
+  <p><br><br></p>
+  <p>${info.author}</p>
+  `;
+
+    newQuote.style.position = 'absolute';
+    newQuote.style.top = '1400px';
+    newQuote.style.left = '50%';
+    newQuote.style.transform = 'translate(-50%, -50%)';
+
+currentQuote.parentNode.replaceChild(newQuote,currentQuote);
 }
-
-function anger()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=anger';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
-
-function change()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=change';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
-
-function dating()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=dating';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
-
-function dreams()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=dreams';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
-
-function failure()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=failure';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
-
-function faith()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=faith';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
-
-function family()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=family';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
-
-function friendship()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=friendship';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
-
-function happiness()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=happiness';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
-
-function health()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=health';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
-
-function life()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=life';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
-
-function success()
-{
-    // API endpoint requiring authentication
- const apiUrl = 'https://api.api-ninjas.com/v1/quotes?category=success';
-
- // API key for authentication
- const apiKey = 'F6XsGpE0HWyxmL3OK5H5CQ==N2DxyP0KRcWPZCRh';
- 
- // Make a GET request with authentication using the Fetch API
- fetch(apiUrl, {
-   headers: {
-    'X-Api-Key' : apiKey,
-   },
- })
-   .then(response => {
-     if (!response.ok) {
-       throw new Error('Network response was not ok');
-     }
-     return response.json();
-   })
-  
-     .then(data => {
-       // Process the protected data
-       console.log(data[0]);
-     })
-   
-   
-   .catch(error => {
-     console.error('Error:', error);
-   });
-}
+});

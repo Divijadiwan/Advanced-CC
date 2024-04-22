@@ -9,8 +9,12 @@
     <title>Digital Divination</title>
 </head>
 <body>
+    <div class="navbar">
+        <a href="../index.html" class="navbutton">Home</a>
+    </div>
     <div class="content">
-    Let's get you a sign, or not
+        <div class="text-wrapper">
+        Let's get you&nbsp;<span class="bold">a sign,</span> or not
     <br>
     <br>
     Which one of the following category's 
@@ -20,62 +24,67 @@
     <br>
     If you do not see the exact same words 
     <br>
-    to describe it chose the closest one.
+    to describe it choose the closest one.
+    <br>
+    <br>
     </div>
-    <br>
-    <br>
-    <div class="category">
-        <button class = "age" onclick = age()>
+</div>
+<div class="options">
+     <button class = "category" id = "age">
          Age 
-        </button>
-        <button class = "alone" onclick = alone()>
+    </button>
+    <button class = "category" id="alone">
             Alone 
-        </button>
-        <button class = "anger" onclick = anger()>
+    </button>
+    <button class = "category" id= "anger">
             Anger
-        </button>
-        <button class = "change" onclick = change()>
+    </button>
+    <button class = "category" id= "change">
          Change
-        </button>
+    </button>
         <br>
-        <br>
-        <button class = "dating" onclick = dating()>
+    <button class = "category" id="dating">
             Dating
-        </button>
-        <button class = "dreams" onclick = dreams()>
+    </button>
+    <button class = "category" id="dreams">
             Dreams
-        </button>
-        <button class = "failure" onclick = failure()>
+    </button>
+    <button class = "category" id="failure">
             Failure
-        </button>
-        <button class = "faith" onclick = faith()>
+    </button>
+    <button class = "category" id="faith">
             Faith
-        </button>
-        <button class = "family" onclick = family()>
+    </button>
+    <button class = "category" id= "family">
             Family
-        </button>
-        <button class = "friendship" onclick = friendship()>
+    </button>
+    <button class = "category" id= "friendship">
             Friendship
-        </button>
-        <button class = "happiness" onclick =  happiness()>
+    </button>
+    <button class = "category" id= "happiness">
             Happiness
-        </button>
-        <button class = "health" onclick =  health()>
+    </button>
+    <button class = "category" id= "health">
             Health
-        </button>
-        <button class = "life" onclick =  life()>
+    </button>
+    <button class = "category" id= "life">
             Life
-        </button>
-        <button class = "success" onclick =  success()>
+    </button>
+    <button class = "category" id= "success">
             Success
-        </button>
-       
-
+    </button>
     </div>
+    <div id="quote"></div>
+    <div id="forpos"></div>
+    <div class = "backup">
+        <button id="up">
+                Back up
+            </button>
+  </div>  
    
-    <br>
-    <br>
 
+
+  
     <script src= "ask.js"></script>
 </body>
 </html>
