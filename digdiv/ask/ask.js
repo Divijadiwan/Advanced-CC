@@ -102,7 +102,7 @@ function displayQuote(info)
   newQuote.innerHTML = `
 
   <p>${info.quote}</p>
-  <p><br><br></p>
+  <br>
   <p>${info.author}</p>
   `;
 
